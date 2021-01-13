@@ -1,0 +1,34 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background-color: black;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.logo li figure img {
+  margin: 2vw 2vw 4vw 2vw;
+  cursor: pointer;
+  width: 2vw;
+}
+
+.icons li figure img {
+  margin: 1.5vw;
+  cursor: pointer;
+  width: 1.7vw;
+}
+
+.logout li figure img {
+  margin: 4vw 2vw 2vw 2vw;
+  cursor: pointer;
+  width: 1.7vw;
+}

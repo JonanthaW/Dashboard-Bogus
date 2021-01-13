@@ -1,0 +1,97 @@
+.o_t_container .searchnThings {
+  margin: 1vw;
+}
+.searchnThings {
+  display: flex;
+  align-items: center;
+}
+.searchnThings input[TYPE="TEXT"] {
+  background-color: #F5F5F7;
+  border-radius: 10px;
+  width: 18vw;
+  border: none;
+  padding: .3vw;
+  padding-left: 3vw;
+  font-size: 1.2vw;
+  background-image: url("../../assets/img/icons/searchIcon.png");
+  background-size: 1.5vw;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 1vw;
+}
+#ringbell {
+  width: 1.5vw;
+  margin-left: 3vw;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+}
+.userInfo img {
+  width: 2.5vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.userInfo i {
+  margin-left: .5vw;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 7px 20px;
+  color: black;
+  text-decoration: none;
+}
+.userInfo:hover .dropdown-content a {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.coursesCompleted {
+  background-color: #F5F5F7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 14vh;
+  margin: 1vw;
+}
+.coursesCompleted p:nth-child(1) {
+  font-size: 5vw;
+}
+.coursesCompleted p:nth-child(2){
+  width: 6vw;
+  margin-left: 1vw;
+  font-size: 1.2vw;
+}
+
+.coursesProgress {
+  background-color: #F5F5F7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 14vh;
+  margin: 1vw;
+}
+.coursesProgress p:nth-child(1) {
+  font-size: 5vw;
+}
+.coursesProgress p:nth-child(2){
+  width: 6vw;
+  margin-left: 1vw;
+  font-size: 1.2vw;
+}
+.coursesInfo {
+  display: flex;
+}
