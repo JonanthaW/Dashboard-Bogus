@@ -1,0 +1,51 @@
+.coursesList {
+  display: flex;
+  margin: 0 2vw 2vw 2vw;
+  align-items: center;
+}
+.coursesList ul li {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F7;
+  width: 47vw;
+  padding: .5vw;
+  margin-top: 1vw;
+}
+.coursesList .image {
+  padding: 1vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.coursesList .hour, .rate, span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2vw;
+  padding: .5vw;
+}
+.coursesList .name h2 {
+  font-size: 1.2vw;
+}
+.coursesList .name p {
+  font-size: .9vw;
+}
+
+.coursesList button {
+  border: 2px solid black;
+  padding: .5vw 2vw .5vw 2vw;
+  border-radius: 10px;
+  margin-right: 1vw;
+  background-color: inherit;
+}
+.coursesList button a {
+  text-decoration: none;
+}
+.coursesList button a p {
+  font-size: 1vw;
+  color: black;
+  text-transform: capitalize;
+}

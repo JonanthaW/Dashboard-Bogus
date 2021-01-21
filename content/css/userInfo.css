@@ -1,0 +1,35 @@
+#ringbell {
+  width: 1.5vw;
+  margin-left: 3vw;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+}
+.userInfo img {
+  width: 2.5vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.userInfo i {
+  margin-left: .5vw;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 7px 20px;
+  color: black;
+  text-decoration: none;
+}
+.userInfo:hover .dropdown-content a {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}

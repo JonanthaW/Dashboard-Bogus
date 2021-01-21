@@ -1,0 +1,23 @@
+.openingMessage {
+  background-color: #F5F5F7;
+  width: 47vw;
+  height: 20vh;
+  margin: 2vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.openingMessage > div:nth-child(1) h2 {
+  font-size: 2.5vw;
+}
+.openingMessage > div:nth-child(1) p {
+  font-size: 1.1vw;
+}
+.openingMessage > div:nth-child(2) {
+  height: 100%;
+}
+.openingMessage img {
+  height: 125%;
+  margin-top: -5vh;
+}

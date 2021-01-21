@@ -1,0 +1,21 @@
+.coursesProgress {
+  background-color: #F5F5F7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 14vh;
+  margin: 1vw;
+}
+.coursesProgress p:nth-child(1) {
+  font-size: 5vw;
+}
+.coursesProgress p:nth-child(2){
+  width: 6vw;
+  margin-left: 1vw;
+  font-size: 1.2vw;
+}
+.coursesInfo {
+  display: flex;
+}

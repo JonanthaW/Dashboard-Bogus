@@ -1,0 +1,21 @@
+.o_t_container .searchnThings {
+  margin: 1vw;
+}
+.searchnThings {
+  display: flex;
+  align-items: center;
+}
+.searchnThings input[TYPE="TEXT"] {
+  background-color: #F5F5F7;
+  border-radius: 10px;
+  width: 18vw;
+  border: none;
+  padding: .3vw;
+  padding-left: 3vw;
+  font-size: 1.2vw;
+  background-image: url("../../assets/img/icons/searchIcon.png");
+  background-size: 1.5vw;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 1vw;
+}

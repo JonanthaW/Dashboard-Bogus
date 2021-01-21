@@ -1,0 +1,31 @@
+.learnMore {
+  background-color: #F5F5F7;
+  width: 30vw;
+  margin: 1vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1vw;
+}
+.learnMore h2 {
+  font-size: 2vw;
+}
+.learnMore p {
+  font-size: 1.1vw;
+  max-width: 15vw;
+}
+.learnMore button {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 1.2vw;
+  border: none;
+  padding: .5vw;
+  margin-top: 1vw;
+  cursor: pointer;
+  width: 10vw;
+}
+.learnMore img {
+  width: 7vw;
+}

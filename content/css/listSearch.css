@@ -1,0 +1,23 @@
+.entry {
+  margin-left: 2vw;
+  font-size: 2vw
+}
+
+.listsearch {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 1vw;
+}
+
+.listsearch li {
+  margin: 1vw;
+}
+
+.listsearch li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.listsearch li a:focus {
+  color: black;
+}
