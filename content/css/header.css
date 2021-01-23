@@ -1,6 +1,7 @@
 main {
   display: flex;
   justify-content: center;
+  margin-top: 1vw;
 }
 
 nav {
@@ -8,6 +9,7 @@ nav {
   height: 100%;
   border-radius: 10px;
   text-align: center;
+  margin-right: 2vw;
 }
 
 nav ul li {

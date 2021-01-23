@@ -3,6 +3,15 @@
   font-size: 2vw
 }
 
+.listesearchcontainer {
+  display: inline-grid;
+}
+
+.listesearchcontainer img {
+  width: 30vw;
+  margin-left: 2vw;
+}
+
 .listsearch {
   display: inline-flex;
   list-style: none;
@@ -16,6 +25,11 @@
 .listsearch li a {
   text-decoration: none;
   color: gray;
+  font-size: 1.3vw;
+}
+
+.listsearch li a:nth-child(1) {
+  color: black;
 }
 
 .listsearch li a:focus {
