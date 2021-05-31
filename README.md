@@ -5,9 +5,14 @@
 
 ## :rocket: Sobre a página
 
-Um simples exemplo de Dashboard web utilizando **HTML, JS, CSS**.
+Um simples exemplo de Dashboard web.
 
-### Tela da aplicação
+#### :wrench: Techs utilizadas:
+* _HTML_
+* _JS_
+* _CSS_
+
+### :bulb: Tela da aplicação
 
 ![image](https://github.com/JonanthaW/Projeto-Dashboard-Bogus/blob/main/assets/img/photos/example1.jpg)
 ![image](https://github.com/JonanthaW/Projeto-Dashboard-Bogus/blob/main/assets/img/photos/example2.jpg)
