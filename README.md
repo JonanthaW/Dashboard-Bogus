@@ -16,3 +16,9 @@ Um simples exemplo de Dashboard web.
 
 ![image](https://github.com/JonanthaW/Dashboard-Bogus/blob/main/assets/img/photos/example1.jpg)
 ![image](https://github.com/JonanthaW/Dashboard-Bogus/blob/main/assets/img/photos/example2.jpg)
+
+### :computer: Baixando o conteúdo:
+
+```bash
+$ git clone https://github.com/JonanthaW/Arduino-Projects.git
+```
